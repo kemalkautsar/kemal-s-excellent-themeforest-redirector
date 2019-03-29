@@ -1,5 +1,5 @@
 jQuery(document).ready(function(){
-	if (jQuery("html").hasClass("gr__preview_themeforest_net")) {
+	if(window.location.href.indexOf("themeforest") > -1) {     
 		window.location.replace("http://www.detheme.com/envato/selector.php?theme=ketocist");
 	}
 });
